@@ -1,0 +1,5 @@
+n = int(input())
+candles = list(map(int, input().split()))
+
+tallest = max(candles)
+print(candles.count(tallest))
